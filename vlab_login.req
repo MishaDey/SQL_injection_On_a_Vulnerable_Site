@@ -1,0 +1,14 @@
+POST /login.php HTTP/1.1
+Host: lab.vlab.space
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:68.0) Gecko/20100101 Firefox/68.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: https://lab.vlab.space/login.php
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 22
+Connection: close
+Cookie: __cfduid=de51ab1bda34e7ae98af707343ec2da4c1595304796; _ga=GA1.2.1504261970.1595304796; _gid=GA1.2.834399952.1595304796; PHPSESSID=22mf7798de79c1l3iptkg7n7r9
+Upgrade-Insecure-Requests: 1
+
+uid=admin&password=123
